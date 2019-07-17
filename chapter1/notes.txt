@@ -1,0 +1,135 @@
+binary operators
+
+    precedence
+        / * %
+        + -
+
+three ways to write strings:
+
+    `Down on the sea`
+    "Lie on the ocean"
+    'Float on the ocean'
+
+escaping character
+
+    "This is the first line\nAnd this is the second"
+
+    result:
+
+    This is the first line
+    And this is the second
+
+    types:
+
+        \n new line
+        \\ backslash
+        \" 
+        \'
+
+concatenation
+
+    "con" + "cat" + "e" + "nate"
+
+    result:
+
+    "concatenate"
+
+
+
+backtick-quoted 
+
+    gives you the falities of introduces values on the string as follow:
+
+    `half of 100 is ${100/2}`
+
+    result:
+
+    "half of 100 is 50"
+
+unary operators
+
+    typeof
+
+        console.log(typeof 4.5)
+        // -> number
+
+        console.log(typeof "x")
+        // -> string
+
+boolean values
+
+    true and false 
+
+    comparison
+
+    binary boolean operators
+
+    > < >= <= == != ===
+
+    console.log(3 > 2)
+    // -> true 
+
+    console.log(3 < 2)
+    // -> false 
+
+    console.log("Itchy" != "Scratchy")
+    // -> true 
+
+    console.log("Apple" == "Orange")
+    // -> false
+
+    you can compare strings too, as follow:
+
+        console.log("Aardvark" < "Zoroaster")
+        // -> true
+
+Logical operators
+
+    and (&&)
+    
+        console.log(true && false)
+        // -> false
+
+        console.log(true && true)
+        // -> true
+
+     or(||)
+     
+        console.log(false || true)
+        // -> true 
+
+        console.log(false || false)
+        // -> false 
+
+      not (!)
+
+        console.log(!true)
+        // -> false 
+
+        console.log(!false)
+        // -> true
+
+    boolean operators precedence:
+
+        from lowest to highest 
+
+        ||
+
+        &&
+
+        >, <, >=, <=, ==
+
+    example
+
+        1 + 1 == 2 && 10 * 10 > 50
+        // -> true 
+
+
+ternary operator or conditional operator
+
+    console.log(true ? 1 : 2)
+    // -> 1
+
+    console.log(false ? 1 : 2)
+    // -> 2
+
